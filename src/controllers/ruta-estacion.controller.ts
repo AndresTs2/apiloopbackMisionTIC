@@ -1,15 +1,13 @@
 import {authenticate} from '@loopback/authentication';
 import {
-  repository,
+  repository
 } from '@loopback/repository';
 import {
-  param,
   get,
-  getModelSchemaRef,
+  getModelSchemaRef, param
 } from '@loopback/rest';
 import {
-  Ruta,
-  Estacion,
+  Estacion, Ruta
 } from '../models';
 import {RutaRepository} from '../repositories';
 
